@@ -1,0 +1,15 @@
+@import "../UI/Varibles.module.scss";
+
+.Presentation {
+  grid-row: 1 / span 2;
+  grid-column: 1 / span 2;
+}
+
+.getInTouchBtn {
+  margin: auto;
+}
+
+.getInTouchFront {
+  color: $purpleBtnTextColor !important;
+  background-color: $purpleColor !important;
+}

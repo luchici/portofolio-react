@@ -1,0 +1,43 @@
+@import "../UI/Varibles.module.scss";
+
+.ProjectCard {
+  grid-column: 3 / -1;
+  width: 100%;
+  display: flex;
+  background-color: $cardColor;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.45);
+  margin: 2%;
+  padding: 2%;
+}
+
+.ProjectCard:hover {
+  transform: scale(1.1);
+  transition: 500ms;
+
+  & img:first-of-type {
+    transition: 500ms;
+    background-color: gray;
+    opacity: 0.7;
+  }
+}
+
+.cardText {
+  // background-color: red;
+  flex: 1 1;
+  margin: 3%;
+}
+
+.ProjectCard h3 {
+  font-weight: 700;
+  font-size: 3rem;
+  margin-top: 50%;
+  padding-right: 20px;
+  margin: 10px;
+}
+
+.ProjectCard p {
+  font-size: 1.65rem;
+  font-weight: 500;
+  margin: 10px;
+}

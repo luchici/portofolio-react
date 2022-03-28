@@ -1,0 +1,26 @@
+@import "../UI/Varibles.module.scss";
+
+.button {
+  background: #929292;
+  border-radius: 12px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  align-self: center;
+}
+
+.front {
+  display: block;
+  padding: 12px 42px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 32px;
+  background: #c4c4c4;
+  color: black;
+  transform: translateY(-6px);
+}
+
+.button:active .front {
+  transform: translateY(-2px);
+}

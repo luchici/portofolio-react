@@ -1,0 +1,17 @@
+.Icon {
+  box-shadow: 0 0 10px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.Icon:hover {
+  transform: translate(0, -15px);
+}
+
+.Icon:active {
+  transform: translate(0, 0);
+}
+
+.Icon:visited {
+  transform: none;
+}

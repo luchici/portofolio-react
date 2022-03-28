@@ -1,0 +1,51 @@
+@import "../UI/Varibles.module.scss";
+
+.text {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  border-left: 2px solid black;
+  padding: 2%;
+  background-color: yellow;
+  // padding-left: 5%;
+  padding: 10% 5% 5% 5%;
+  margin: 4% 0;
+}
+
+.text h6 {
+  flex: 1 0;
+  font-size: 2rem;
+  @include mp0;
+  margin: 5% 0 0 0;
+}
+
+.text h1 {
+  font-size: 11rem;
+  color: $pinkText;
+  @include mp0;
+}
+
+.text h3 {
+  display: inline-block;
+  font-size: 6rem;
+  color: $purpleColor;
+  @include mp0;
+  width: 70%;
+  text-align: center;
+}
+
+.LookingForWork {
+  position: absolute;
+  text-align: center;
+  border-radius: 15px;
+  padding: 2% 1%;
+  top: 5%;
+  right: 8%;
+  background-color: $greenButton;
+  color: whitesmoke;
+  font-weight: 700;
+  font-size: 1.6rem;
+  width: 30%;
+  transform: rotate(15deg);
+}
