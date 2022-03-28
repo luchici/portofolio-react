@@ -8,6 +8,10 @@
   cursor: pointer;
   outline-offset: 4px;
   align-self: center;
+
+  :hover {
+    transform: scale(1.05);
+  }
 }
 
 .front {
@@ -21,6 +25,10 @@
   transform: translateY(-6px);
 }
 
+.button:hover .front {
+  transform: translateY(-10px);
+}
+
 .button:active .front {
-  transform: translateY(-2px);
+  transform: translateY(-6px);
 }

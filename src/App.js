@@ -8,7 +8,7 @@ import image2 from "./resources/icon/BlackCat.jpg";
 function App() {
   return (
     <div className={styles.App}>
-      <Presentation className={styles.grid} />
+      <Presentation />
       <ProjectCard image={image1} />
       <ProjectCard image={image2} />
     </div>
